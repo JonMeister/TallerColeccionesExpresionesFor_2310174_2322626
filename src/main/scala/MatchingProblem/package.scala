@@ -57,7 +57,7 @@ package object MatchingProblem {
 
   }
 
-  def weightMatchings(n : Int, pilotPrefs : Preferences, navigPrefs : Preferences) : List[(Matching,Int)] = {
+  def weightedMatchings(n : Int, pilotPrefs : Preferences, navigPrefs : Preferences) : List[(Matching,Int)] = {
 
     def calcWeightOneList(li : List[Match]) : Int = {
       val prodList = for{
@@ -82,7 +82,7 @@ package object MatchingProblem {
   }
 
   def bestMatching(n : Int, pilotPrefs : Preferences, navigPrefs : Preferences) : (Matching,Int) = {
-    val allweights = weightMatchings(n, pilotPrefs, navigPrefs)
+    val allweights = weightedMatchings(n, pilotPrefs, navigPrefs)
 
     allweights.foldLeft(allweights.head){
       (acc,elem) => {
