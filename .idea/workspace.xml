@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc2a72c0-d03d-4e55-a8f6-47fc5384d9a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/MatchingProblem/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/MatchingProblem/package.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/Pruebas.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Pruebas.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +120,7 @@
       <workItem from="1728980190418" duration="107000" />
       <workItem from="1728980306849" duration="160000" />
       <workItem from="1728981613438" duration="172000" />
-      <workItem from="1728981798516" duration="2712000" />
+      <workItem from="1728981798516" duration="23554000" />
     </task>
     <servers />
   </component>

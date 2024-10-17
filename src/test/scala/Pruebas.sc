@@ -32,11 +32,13 @@ matchings(4)
 matchings(5)
 
 // Casos de prueba: Calculando los pesos de los emparejamientos válidos
+weightedMatchings(1, pilot, navig)
 weightedMatchings(2, pilot, navig)
 weightedMatchings(3, pilot, navig)
 weightedMatchings(4, pilot, navig)
 
 // Casos de prueba: Calculando el mejor emparejamiento
+bestMatching(1, pilot, navig)
 bestMatching(2, pilot, navig)
 bestMatching(3, pilot, navig)
 bestMatching(4, pilot, navig)
